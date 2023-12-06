@@ -1,0 +1,87 @@
+body {
+    background-image: url(img/softex-16929ac1a950187b473415ebbf395cf8.png);
+    background-position: center left;
+
+}
+
+
+.login {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:white;
+    background-size: cover;
+    transition: background-color 4s ease-in-out;
+    width: 30vw;
+    height: 40vw;
+    text-align: center;
+    padding: 1vw;
+    margin: 2vw 5vw;
+    box-shadow: 1vw 1vw 1vw 0.5vw black;
+    font-size: 1.5vw;
+}
+
+.login:hover {
+    background-color: rgb(209, 203, 203);
+}
+
+
+
+#nome {
+    width: 27vw;
+    height: 3vw;
+    font-size: 1vw;
+    
+
+
+
+}
+h1{
+    font-size: 45px;
+   text-align: initial;
+   margin-left: 1.2vw;
+}
+p{
+    text-align: initial;
+   margin-left: 1.2vw;
+   margin-top: -1.3vw;
+   font-size: 20px;
+}
+
+
+#senha {
+    width: 27vw;
+    height: 3vw;
+    font-size: 1vw;
+    
+}
+
+
+
+
+
+
+
+
+#botao-acessar {
+    display: flex;
+    align-items: center;
+}
+
+#botao {
+    align-items: center;
+    height: 2.5vw;
+    width: 27vw;
+    background-color:orange;
+    color: white;
+    font-size: 1.3vw;
+    margin: auto;
+
+}
+
+#botao:hover {
+    transform: scale(1.1);
+    transition: transform 0.4s ease-in-out;
+}
+
